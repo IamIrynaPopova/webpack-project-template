@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://IamIrynaPopova.github.io/webpack-project-template/",
+  "homepage": "https://iamirynapopova.github.io/webpack-project-template/",
   "scripts": {
     "build": "webpack",
     "lint:js": "eslint src/**/*.{js,jsx}"
