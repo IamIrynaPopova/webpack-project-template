@@ -1,5 +1,5 @@
 function example() {
-        return "I created my own super bundler ";
+        return "I created my own bundler ";
        
 }
 
