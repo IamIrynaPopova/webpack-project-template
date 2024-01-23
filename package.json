@@ -5,8 +5,7 @@
   "main": "index.js",
   "homepage": "https://IamIrynaPopova.github.io/webpack-project-template/",
   "scripts": {
-    "build": "webpack",
-    "lint:js": "eslint src/**/*.{js,jsx}"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
