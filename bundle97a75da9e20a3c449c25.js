@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 function example() {
-  return "I created my own bundler :) ";
+  return "I created my own bundler ";
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (example);
 
@@ -685,4 +685,4 @@ console.log((0,_example__WEBPACK_IMPORTED_MODULE_0__["default"])());
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle427ce46c5a9f3c7f5c33.js.map
+//# sourceMappingURL=bundle97a75da9e20a3c449c25.js.map
