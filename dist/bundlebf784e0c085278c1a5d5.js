@@ -677,9 +677,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var humanImg = document.getElementById('human');
+humanImg.src = _assets_human_jpg__WEBPACK_IMPORTED_MODULE_2__;
+console.log(humanImg.src);
 console.log((0,_example__WEBPACK_IMPORTED_MODULE_0__["default"])());
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle7bfe514599c78c9eae3d.js.map
+//# sourceMappingURL=bundlebf784e0c085278c1a5d5.js.map

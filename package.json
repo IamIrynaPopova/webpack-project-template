@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://iamirynapopova.github.io/webpack-project-template/",
+  "private": true,
+  "homepage": "https://IamIrynaPopova.github.io/webpack-project-template/",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve",
+    "start": "webpack serve",
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "keywords": [],
