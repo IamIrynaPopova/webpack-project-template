@@ -6,7 +6,7 @@
   "private": true,
   "homepage": "https://IamIrynaPopova.github.io/webpack-project-template/",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --node-env=production",
     "start": "webpack serve",
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
@@ -21,11 +21,16 @@
     "eslint": "^8.56.0",
     "gh-pages": "^6.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.7.7",
     "sass": "^1.70.0",
     "sass-loader": "^14.0.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "image-webpack-loader": "^8.1.0",
+    "postcss-loader": "^8.0.0"
   }
 }
