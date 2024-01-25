@@ -14,18 +14,15 @@
 
 ![Creating repo from a template step 2](./src/assets/step-2.png)
 
-Після створення репозиторія, потрібно перейти в `Settings` > `Actions` > `General` 
+Після створення репозиторію, потрібно перейти в `Settings` > `Actions` > `General` 
 
-В секції `«Workflow permissions»` вибери опцію `«Read and write permissions»` і поставь галочку в чекбоксі та нажми `Save`. Це потрібно для автоматичного деплою проєкту.
+В секції `«Workflow permissions»` вибери опцію `«Read and write permissions»` і постав галочку в чекбоксі та натисни `Save`. Це потрібно для автоматичного деплою проєкту.
 
 ![Settings GitHub Actions permissions step 1](./src/assets/step-3.png)
-![Creating repo from a template step 2](./src/assets/step-2.png)
-
-
 
 ## Деплой
 
-Prodaction версія буде автоматично збиратись і деплоїтись на GitHub Pages, в гілку `gh-pages` кожен раз, коли оновлюється `master`. 
+Продакшен версія буде автоматично збиратись і деплоїтись на GitHub Pages, в гілку `gh-pages` кожен раз, коли оновлюється `master`. 
 Для цього необхідно:
 1) в файлі `package.json` відредагувати поле `homepage`, замінив
 `your_username` и `your_repo_name` на свої, і відправити зміни на GitHub.
@@ -33,7 +30,7 @@ Prodaction версія буде автоматично збиратись і д
 ```json
 "homepage": "https://your_username.github.io/your_repo_name/"
 ```
-2) заходимо в налаштування GitHub-репозиторію (`Settings` > `Pages`) і вибираємо роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо це не створилось автоматично і нажимаємо `Save`
+2) заходимо в налаштування GitHub-репозиторію (`Settings` > `Pages`) і вибираємо роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо це не створилось автоматично і натискаємо `Save`
 
 ![GitHub Pages settings](./src/assets/step-4.png)
 
@@ -48,7 +45,7 @@ Prodaction версія буде автоматично збиратись і д
 
 ### Статус деплою
 
-Статус відображається біля останнєго коміту 
+Статус відображається біля останнього коміту 
 
 - **Жовтий колір**  - виконується збірка і деплой проєкту.
 - **Зелений колір** - деплой завершився успішно.
