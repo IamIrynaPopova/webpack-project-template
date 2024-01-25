@@ -33,12 +33,12 @@
 ```
 2) заходимо в налаштування GitHub-репозиторію (`Settings` > `Pages`) і вибираємо роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо це не створилось автоматично і натискаємо `Save`
 
-![GitHub Pages settings](./src/assets/step-4.png)
+![GitHub Pages settings](./src/assets/step-4.PNG)
 
 Через кілька хвилин, живу сторінку можна буде подивитися
 за адресою вказаною у відредагованій властивості `homepage`.
 
-![GitHub Pages settings](./src/assets/step-5.png)
+![GitHub Pages settings](./src/assets/step-5.PNG)
 
 Якщо відкриється порожня сторінка, переконайтеся, що у вкладці `Console` немає помилок
 пов'язаних з неправильними шляхами до CSS та JS файлів проекту (**404**). Швидше
