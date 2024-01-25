@@ -19,6 +19,7 @@
 В секції `«Workflow permissions»` вибери опцію `«Read and write permissions»` і поставь галочку в чекбоксі та нажми `Save`. Це потрібно для автоматичного деплою проєкту.
 
 ![Settings GitHub Actions permissions step 1](./src/assets/step-3.png)
+![Creating repo from a template step 2](./src/assets/step-3.png)
 
 
 ## Деплой
