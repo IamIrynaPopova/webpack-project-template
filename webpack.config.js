@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPartialsPlugin = require("html-webpack-partials-plugin");
+
 const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
@@ -84,5 +86,16 @@ module.exports = {
       filename: devMode ? "[name].css" : "[name].[contenthash].css",
       chunkFilename: devMode ? "[id].css" : "[id].[contenthash].css",
     }),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: "src/partials/header.html",
+      },
+      {
+        path: "src/partials/hero.html",
+      },
+      {
+        path: "src/partials/footer.html",
+      },
+    ]),
   ],
 };
