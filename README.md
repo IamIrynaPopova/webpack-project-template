@@ -1,6 +1,6 @@
 # Webpack-project-template
 
- [Документація](https://webpack.js.org/).
+ [Документація](https://webpack.js.org/)
 
 ## Початок нового проєкту
 

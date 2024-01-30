@@ -20,13 +20,14 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     static: {
-      directory: path.join(__dirname, "public"),
+      directory: path.join(__dirname, "src"),
     },
     compress: true,
-    port: 3000,
+    port: 9000,
     open: true,
     hot: true,
     historyApiFallback: true,
+    watchContentBase: true,
   },
   module: {
     rules: [
