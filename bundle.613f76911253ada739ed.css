@@ -1,0 +1,14 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.css ***!
+  \**************************************************************************************************************/
+.container {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=bundle.613f76911253ada739ed.css.map*/

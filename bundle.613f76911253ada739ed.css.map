@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.613f76911253ada739ed.css","mappings":";;;AAAA;EACA;EACA;AACA;;AAEA;EACE;EACA;AACF,C","sources":["webpack://webpack-project-template/./src/styles/main.css"],"sourcesContent":[".container {\npadding-left: 170px ;\npadding-right: 170px ;\n}\n\nimg {\n  width: 100px;\n  margin-bottom: 20px;\n}\n\n\n\n\n\n\n\n\n"],"names":[],"sourceRoot":""}
