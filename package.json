@@ -7,7 +7,7 @@
   "homepage": "https://IamIrynaPopova.github.io/webpack-project-template/",
   "scripts": {
     "build": "webpack --node-env=production",
-    "start": "webpack serve",
+    "start": "webpack serve --node-env=development",
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "css-loader": "^6.9.1",
     "eslint": "^8.56.0",
     "gh-pages": "^6.0.0",
+    "html-loader": "^5.0.0",
     "html-webpack-partials-plugin": "^0.8.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.7.7",

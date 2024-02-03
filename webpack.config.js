@@ -1,7 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPartialsPlugin = require("html-webpack-partials-plugin");
 
 const devMode = process.env.NODE_ENV !== "production";
 
@@ -23,14 +22,17 @@ module.exports = {
       directory: path.join(__dirname, "src"),
     },
     compress: true,
-    port: 9000,
+    port: 3000,
     open: true,
     hot: true,
     historyApiFallback: true,
-    watchContentBase: true,
   },
   module: {
     rules: [
+      // {
+      //   test: /\.html$/,
+      //   use: ["html-loader"],
+      // },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
@@ -80,23 +82,16 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Webpack project template",
-      filename: "index.html",
       template: "src/template.html",
+      filename: "index.html",
+      inject: true,
+      templateParameters: {
+        headerContent: () => require("fs").readFileSync("./src/partials/header.html", "utf8"),
+      },
     }),
     new MiniCssExtractPlugin({
       filename: devMode ? "[name].css" : "[name].[contenthash].css",
       chunkFilename: devMode ? "[id].css" : "[id].[contenthash].css",
     }),
-    new HtmlWebpackPartialsPlugin([
-      {
-        path: "src/partials/header.html",
-      },
-      {
-        path: "src/partials/hero.html",
-      },
-      {
-        path: "src/partials/footer.html",
-      },
-    ]),
   ],
 };
