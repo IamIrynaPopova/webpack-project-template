@@ -14,9 +14,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.8",
-    "@babel/preset-react": "^7.23.3",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.9.1",
     "eslint": "^8.56.0",
@@ -35,6 +37,12 @@
   },
   "dependencies": {
     "image-webpack-loader": "^8.1.0",
-    "postcss-loader": "^8.0.0"
-  }
+    "postcss-loader": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-spinners": "^0.14.1",
+    "uuid": "^9.0.1"
+  },
+  "proxy": "http://localhost:3001"
 }
