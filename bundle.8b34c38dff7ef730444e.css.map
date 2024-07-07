@@ -1,1 +1,0 @@
-{"version":3,"file":"bundle.8b34c38dff7ef730444e.css","mappings":"AAAA,WACE,mBACA,oBAGF,IACE,Y","sources":["webpack://webpack-project-template/./src/styles/main.css"],"sourcesContent":[".container {\n  padding-left: 170px;\n  padding-right: 170px;\n}\n\nimg {\n  width: 300px;\n}\n"],"names":[],"sourceRoot":""}
