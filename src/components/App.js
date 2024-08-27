@@ -1,4 +1,4 @@
-import react from 'react';
+import React from "react";
 import human from "../assets/human.jpg"; 
 import Teams from "./Teams";
 
