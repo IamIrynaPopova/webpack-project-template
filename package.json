@@ -36,6 +36,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "image-webpack-loader": "^8.1.0",
     "postcss-loader": "^8.0.0",
     "react": "^18.2.0",
