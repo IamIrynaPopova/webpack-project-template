@@ -1,15 +1,13 @@
 import React from "react";
-import human from "../assets/human.jpg"; 
-import Teams from "./Teams";
+import human from "../assets/human.jpg";
 
 const App = () => {
-        return (
-          <div>
-            <h1>I am Hero. Hello</h1>
-            <img src={human} alt="human" />
-            <Teams/>
-          </div>
-        );
-}
+  return (
+    <div>
+      <h1>I am Hero. Hello</h1>
+      <img src={human} alt="human" />
+    </div>
+  );
+};
 
 export default App;
