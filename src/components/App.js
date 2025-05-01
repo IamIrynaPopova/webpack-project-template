@@ -3,7 +3,7 @@ import human from "../assets/human.jpg";
 
 const App = () => {
   return (
-    <div>
+    <div className="conteiner">
       <h1>I am Hero. Hello</h1>
       <img src={human} alt="human" />
     </div>
